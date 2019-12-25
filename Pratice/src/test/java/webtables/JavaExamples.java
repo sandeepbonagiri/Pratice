@@ -36,7 +36,7 @@ public class JavaExamples {
 		    		driver.manage().window().maximize();
 		    		driver.get("https://www.toolsqa.com/automation-practice-table/");
 
-		          WebElement table = driver.findElement(By.xpath("//*[@id=\"content\"]/table"));
+		          WebElement table = driver.findElement(By.xpath("//*[@id='content']/table"));
 		            
 		          // for(int i=0;i<table.size();i++) 
 		           
