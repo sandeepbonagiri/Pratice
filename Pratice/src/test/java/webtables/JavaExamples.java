@@ -28,6 +28,8 @@ public class JavaExamples {
 		
         List<String> namesList = Arrays.asList("Structure", "Country", "City", "Height", "Built", "Rank", "…", "Total"," Burj", "Khalifa", "Clock Tower Hotel", "Taipei 101", "Financial Center");
         System.out.println(namesList);
+        System.out.println(namesList);
+        System.out.println(namesList);
 
 
 		
@@ -56,7 +58,7 @@ public class JavaExamples {
 		           System.out.println(columnNames);
 		           
 		           System.out.println(
-		                   "If  number from aList is present in List 2 :" +
+		                   "If any number from aList is present in List 2 :" +
 		                	namesList.stream().allMatch(num -> columnNames.contains(num)));
 	
 		        }
