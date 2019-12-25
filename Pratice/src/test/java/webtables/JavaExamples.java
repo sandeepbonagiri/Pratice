@@ -56,7 +56,7 @@ public class JavaExamples {
 		           System.out.println(columnNames);
 		           
 		           System.out.println(
-		                   "If any number from aList is present in List 2 :" +
+		                   "If  number from aList is present in List 2 :" +
 		                	namesList.stream().allMatch(num -> columnNames.contains(num)));
 	
 		        }
